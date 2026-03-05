@@ -18,7 +18,7 @@ public class Main {
         CarDao carDao = new MemCarDao();
 
         DealershipService service = new DealershipServiceBean(carDao, dealershipDao);
-
+/**/
 
         List<Dealership> dealerships = service.getAllDealerships();
 
