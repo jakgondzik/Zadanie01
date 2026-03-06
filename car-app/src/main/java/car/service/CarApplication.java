@@ -6,13 +6,12 @@ import car.repository.CarDao;
 import car.repository.DealershipDao;
 import car.repository.mem.MemCarDao;
 import car.repository.mem.MemDealershipDao;
-import car.service.impl.DealershipServiceBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
 
-public class Main {
+public class CarApplication {
     public static void main(String[] args) {
 
         System.out.println("Lets find cars");

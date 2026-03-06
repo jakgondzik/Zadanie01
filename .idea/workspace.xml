@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="" />
+    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Zadanie01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/model/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/model/Dealership.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/BrandDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/CarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/DealershipDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/MemBrandDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/MemDealershipDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/SampleData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/DealershipService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/resources/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/config/VodConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/config/CarConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,17 +74,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/kubag/Desktop/Zadanie01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="FooAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="foo-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="LabJava.fooapp.FooAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,11 +117,17 @@
       <updated>1772789218716</updated>
       <workItem from="1772789219749" duration="20000" />
       <workItem from="1772789260298" duration="30000" />
-      <workItem from="1772789332545" duration="88000" />
+      <workItem from="1772789470655" duration="138000" />
+      <workItem from="1772789618689" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/car-app" />
+    </ignored-roots>
   </component>
 </project>
