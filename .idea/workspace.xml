@@ -1,61 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/model/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/model/Dealership.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/BrandDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/CarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/DealershipDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/mem/MemBrandDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/mem/MemDealershipDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/repository/mem/SampleData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/service/CarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/service/DealershipService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/service/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie01/src/main/resources/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/model/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/model/Dealership.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/BrandDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/CarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/DealershipDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/mem/MemBrandDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/mem/MemDealershipDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/repository/mem/SampleData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/service/CarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/service/DealershipService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/service/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Zadanie01" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -81,10 +34,12 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/kubag/Desktop/Zadanie01",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,6 +60,7 @@
       <updated>1772789218716</updated>
       <workItem from="1772789219749" duration="20000" />
       <workItem from="1772789260298" duration="30000" />
+      <workItem from="1772789332545" duration="88000" />
     </task>
     <servers />
   </component>
