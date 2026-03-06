@@ -23,7 +23,7 @@ public class CarServiceMain {
 
        // DealershipService service = new DealershipServiceBean(carDao, dealershipDao);
 /**/
-
+//6.03
         DealershipService service2 = context.getBean(DealershipService.class);
         List<Dealership> dealerships = service.getAllDealerships();
 
