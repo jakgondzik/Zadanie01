@@ -1,5 +1,7 @@
 package car.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +9,7 @@ public class Dealership {
     private int id;
     private String name;
     private String logo;
+    @JsonIgnore
     private List<Car> cars = new ArrayList<>(); // wiele do wiele
 
     public Dealership(int id, String name, String logo) {

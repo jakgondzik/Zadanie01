@@ -4,38 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Zadanie01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="najnowsze">
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/CarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/HelloRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/model/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/model/Dealership.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/BrandDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/CarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/DealershipDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/MemBrandDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/MemDealershipDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/repository/mem/SampleData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/CarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/DealershipService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/car-app/src/main/resources/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/config/VodConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/config/CarConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/model/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/model/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarServiceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +51,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CarApplication.executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CarAppApplication.executor": "Run",
+    "Spring Boot.CarApplication.executor": "Run",
+    "Spring Boot.FooAppApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/kubag/Desktop/Zadanie01",
@@ -87,11 +72,22 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CarAppApplication">
+    <configuration name="CarAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="car" />
+      <option name="PROGRAM_PARAMETERS" value="one two three" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="car.CarApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FooAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="foo-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="LabJava.fooapp.FooAppApplication" />
@@ -99,6 +95,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.FooAppApplication" />
+      <item itemvalue="Spring Boot.CarAppApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -118,8 +118,19 @@
       <workItem from="1772789219749" duration="20000" />
       <workItem from="1772789260298" duration="30000" />
       <workItem from="1772789470655" duration="138000" />
-      <workItem from="1772789618689" duration="682000" />
+      <workItem from="1772789618689" duration="830000" />
+      <workItem from="1772790453389" duration="363000" />
+      <workItem from="1772790826010" duration="2814000" />
     </task>
+    <task id="LOCAL-00001" summary="najnowsze">
+      <option name="closed" value="true" />
+      <created>1772790444079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772790444079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,5 +140,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/car-app" />
     </ignored-roots>
+    <MESSAGE value="najnowsze" />
+    <option name="LAST_COMMIT_MESSAGE" value="najnowsze" />
   </component>
 </project>

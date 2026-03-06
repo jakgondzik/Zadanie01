@@ -11,7 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.util.List;
 
-public class CarApplication {
+public class CarServiceMain {
     public static void main(String[] args) {
 
         System.out.println("Lets find cars");
