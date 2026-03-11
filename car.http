@@ -21,3 +21,12 @@ Content-Type: application/json
   "name": "New dealership",
   "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
 }
+### create new dealership with error
+POST http://localhost:8080/dealerships
+Content-Type: application/json
+Accept-Language: it
+
+{
+  "name": "",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}

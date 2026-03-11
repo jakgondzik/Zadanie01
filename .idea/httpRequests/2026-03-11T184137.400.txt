@@ -1,0 +1,2 @@
+error:
+Pole nazwa w obiekcie sprzedawcy musi mieć pomiędzy 2 a 20 znaków
