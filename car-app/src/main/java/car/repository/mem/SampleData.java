@@ -14,7 +14,7 @@ public class SampleData {
     static{
         Brand toyota = new Brand(1,"Toyota","https://brand.toyota.com/content/dam/brandhub/guidelines/logo/four-column/BHUB_Logo_LogoFamily_01.svg");
         Brand ford = new Brand(2,"Ford","https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png");
-        Brand porsche = new Brand(3,"Ford","https://1000logos.net/wp-content/uploads/2018/02/Porsche-Logo-500x281.png");
+        Brand porsche = new Brand(3,"Porsche","https://1000logos.net/wp-content/uploads/2018/02/Porsche-Logo-500x281.png");
         Car yarris = new Car(1,"yarris",toyota,130000);
         Car rav = new Car(2,"rav4",toyota,140000);
         Car chr = new Car(3,"chr",toyota,150000);

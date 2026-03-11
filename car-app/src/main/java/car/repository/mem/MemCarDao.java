@@ -24,10 +24,12 @@ public class MemCarDao implements CarDao {
         return SampleData.cars.stream().filter(c -> c.getDealerships().contains(d)).collect(Collectors.toList());
     }
     @Override
-    public Car add(Car c) {
+    public Car addCar(Car c) {
         int max = SampleData.cars.stream().max((c1, c2) -> c1.getId() - c2.getId()).get().getId();
         c.setId(++max);
         SampleData.cars.add(c);
         return c;
     }
+
+
 }

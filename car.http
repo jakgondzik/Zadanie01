@@ -1,5 +1,34 @@
 ### GET request to example server
 
+
+
+
+
+
+###Get all cars
+GET http://localhost:8080/cars
+
+###Get car by id
+GET http://localhost:8080/cars/1
+
+###Get cars from dealership
+GET http://localhost:8080/dealership/1/car
+
+### create new car
+POST http://localhost:8080/cars
+Content-Type: application/json
+
+{
+
+  "model": "Niemampojeciajuz",
+  "price": 100000.0,
+  "brandId": 1
+}
+
+
+
+
+
 ###Get all dealerships wit params
 GET http://localhost:8080/dealerships?phrase=abc
 custom-header: custom-value
@@ -28,5 +57,14 @@ Accept-Language: it
 
 {
   "name": "",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+### create new with doubled name
+POST http://localhost:8080/dealerships
+Content-Type: application/json
+Accept-Language: it
+
+{
+  "name": "vcentrum",
   "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
 }

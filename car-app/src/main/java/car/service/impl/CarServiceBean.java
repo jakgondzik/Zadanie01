@@ -57,7 +57,7 @@ public class CarServiceBean implements CarService {
     @Override
     public Car addCar(Car c) {
         log.info("Add car");
-        return carDao.add(c);
+        return carDao.addCar(c);
     }
     public Brand addBrand(Brand b) {
         log.info("Add brand");

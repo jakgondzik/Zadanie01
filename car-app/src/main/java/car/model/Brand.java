@@ -1,5 +1,7 @@
 package car.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +9,7 @@ public class Brand {
     private int id;
     private String name;
     private String logo;
+    @JsonIgnore
     private List<Car> cars = new ArrayList<>(); //relacja 1 do wielu
 
     public Brand(int id, String name, String logo) {

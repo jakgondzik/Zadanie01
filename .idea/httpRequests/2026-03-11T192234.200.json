@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "model": "yarris",
+  "brand": {
+    "id": 1,
+    "name": "Toyota",
+    "logo": "https://brand.toyota.com/content/dam/brandhub/guidelines/logo/four-column/BHUB_Logo_LogoFamily_01.svg"
+  },
+  "price": 130000.0,
+  "dealerships": [
+    {
+      "id": 3,
+      "name": "carmax",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/09/CarMax-Logo-500x281.png"
+    }
+  ]
+}

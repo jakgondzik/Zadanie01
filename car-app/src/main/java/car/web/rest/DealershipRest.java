@@ -7,6 +7,7 @@ import car.service.DealershipService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
@@ -27,7 +28,9 @@ public class DealershipRest {
     private final CarService carService;
     private final MessageSource messageSource;
     private final LocaleResolver localeResolver;
-
+    private final DealershipValidator validator;
+    //@InitBinder
+   //void initBinder(WebDataBinder binder) { binder.addValidators(validator); }
 
     @GetMapping("/dealerships")
     List<Dealership> getDealerships(

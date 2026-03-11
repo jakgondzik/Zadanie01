@@ -5,27 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages_it.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T142921.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T142923.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T142925.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T142928.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T142944.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T142946.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T143625.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T143715.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T143801.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T143802.200.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/dto/CarDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144040.200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144206.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144208.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144237.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144238.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144502.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144537.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144942.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145006.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145213.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145232.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145257.200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145300.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145302.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153635.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153656.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153706.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153708.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153715.201.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/model/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/model/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/model/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/model/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/CarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemCarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/SampleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/SampleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Dealership.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Dealership.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages_it.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/CarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/CarDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/SampleData.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/SampleData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/messages_it.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/messages_pl.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car.http" beforeDir="false" afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTTP Request" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,8 +97,11 @@
     "HTTP Request.car | #3.executor": "Run",
     "HTTP Request.car | #4.executor": "Run",
     "HTTP Request.car | GET request to example server.executor": "Run",
+    "HTTP Request.car | Get car by id.executor": "Run",
+    "HTTP Request.car | create new car.executor": "Run",
     "HTTP Request.car | create new dealership with error.executor": "Run",
     "HTTP Request.car | create new dealership.executor": "Run",
+    "HTTP Request.car | create new with doubled name.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
@@ -113,16 +138,16 @@
     <configuration name="car | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="GET request to example server" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#3" index="3" runType="Run single request">
+    <configuration name="car | Get car by id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="Get car by id" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#4" index="4" runType="Run single request">
+    <configuration name="car | create new car" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new car" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | create new dealership with error" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership with error" index="7" runType="Run single request">
+    <configuration name="car | create new dealership" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | create new dealership" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership" index="6" runType="Run single request">
+    <configuration name="car | create new with doubled name" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new with doubled name" index="8" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CarAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -141,9 +166,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.car | create new dealership with error" />
-      <item itemvalue="HTTP Request.car | #3" />
-      <item itemvalue="HTTP Request.car | #4" />
+      <item itemvalue="HTTP Request.car | Get car by id" />
+      <item itemvalue="HTTP Request.car | create new car" />
+      <item itemvalue="HTTP Request.car | create new with doubled name" />
       <item itemvalue="HTTP Request.car | GET request to example server" />
       <item itemvalue="HTTP Request.car | create new dealership" />
       <item itemvalue="Spring Boot.FooAppApplication" />
@@ -151,10 +176,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.car | create new dealership with error" />
+        <item itemvalue="HTTP Request.car | create new with doubled name" />
         <item itemvalue="HTTP Request.car | create new dealership" />
-        <item itemvalue="HTTP Request.car | #3" />
-        <item itemvalue="HTTP Request.car | #4" />
+        <item itemvalue="HTTP Request.car | create new car" />
+        <item itemvalue="HTTP Request.car | Get car by id" />
         <item itemvalue="HTTP Request.car | GET request to example server" />
       </list>
     </recent_temporary>
@@ -185,7 +210,7 @@
       <workItem from="1773077709013" duration="23000" />
       <workItem from="1773235235857" duration="3839000" />
       <workItem from="1773242235311" duration="984000" />
-      <workItem from="1773246670270" duration="3263000" />
+      <workItem from="1773246670270" duration="6535000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />

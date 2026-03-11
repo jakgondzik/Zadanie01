@@ -11,5 +11,10 @@ public interface CarDao {
     Car findById(int id);
     List<Car> findByBrand(Brand brand);
     List<Car> findByDealership(Dealership dealership);
-    Car add(Car car);
+    Car addCar(Car car);
+
+
+
+
+
 }

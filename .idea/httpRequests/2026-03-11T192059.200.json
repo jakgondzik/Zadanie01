@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "model": "yarris",
+    "brand": {
+      "id": 1,
+      "name": "Toyota",
+      "logo": "https://brand.toyota.com/content/dam/brandhub/guidelines/logo/four-column/BHUB_Logo_LogoFamily_01.svg"
+    },
+    "price": 130000.0,
+    "dealerships": [
+      {
+        "id": 3,
+        "name": "carmax",
+        "logo": "https://1000logos.net/wp-content/uploads/2021/09/CarMax-Logo-500x281.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "model": "chr",
+    "brand": {
+      "id": 1,
+      "name": "Toyota",
+      "logo": "https://brand.toyota.com/content/dam/brandhub/guidelines/logo/four-column/BHUB_Logo_LogoFamily_01.svg"
+    },
+    "price": 150000.0,
+    "dealerships": [
+      {
+        "id": 3,
+        "name": "carmax",
+        "logo": "https://1000logos.net/wp-content/uploads/2021/09/CarMax-Logo-500x281.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "model": "raptor",
+    "brand": {
+      "id": 2,
+      "name": "Ford",
+      "logo": "https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png"
+    },
+    "price": 10000.0,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "eurocar",
+        "logo": "https://eurocar.pl/wp-content/uploads/2023/08/logo-euro-car.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "model": "mondeo",
+    "brand": {
+      "id": 2,
+      "name": "Ford",
+      "logo": "https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png"
+    },
+    "price": 9000.0,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "eurocar",
+        "logo": "https://eurocar.pl/wp-content/uploads/2023/08/logo-euro-car.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "model": "cortina",
+    "brand": {
+      "id": 2,
+      "name": "Ford",
+      "logo": "https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png"
+    },
+    "price": 11000.0,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "eurocar",
+        "logo": "https://eurocar.pl/wp-content/uploads/2023/08/logo-euro-car.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "model": "macan",
+    "brand": {
+      "id": 3,
+      "name": "Ford",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/02/Porsche-Logo-500x281.png"
+    },
+    "price": 220000.0,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "eurocar",
+        "logo": "https://eurocar.pl/wp-content/uploads/2023/08/logo-euro-car.png"
+      },
+      {
+        "id": 1,
+        "name": "vcentrum",
+        "logo": "https://www.vcentrum.pl/wp-content/uploads/2021/09/vcentrum-logo.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "model": "taycan",
+    "brand": {
+      "id": 3,
+      "name": "Ford",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/02/Porsche-Logo-500x281.png"
+    },
+    "price": 520000.0,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "eurocar",
+        "logo": "https://eurocar.pl/wp-content/uploads/2023/08/logo-euro-car.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "model": "rav4",
+    "brand": {
+      "id": 1,
+      "name": "Toyota",
+      "logo": "https://brand.toyota.com/content/dam/brandhub/guidelines/logo/four-column/BHUB_Logo_LogoFamily_01.svg"
+    },
+    "price": 140000.0,
+    "dealerships": [
+      {
+        "id": 3,
+        "name": "carmax",
+        "logo": "https://1000logos.net/wp-content/uploads/2021/09/CarMax-Logo-500x281.png"
+      }
+    ]
+  }
+]
