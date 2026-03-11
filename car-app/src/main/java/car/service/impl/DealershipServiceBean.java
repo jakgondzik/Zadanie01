@@ -8,10 +8,11 @@ import car.service.DealershipService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.logging.Logger;
-@Component
+@Service
 @Scope("prototype")
 public class DealershipServiceBean implements DealershipService {
 
@@ -49,6 +50,11 @@ public class DealershipServiceBean implements DealershipService {
         this.carDao = carDao;
         this.dealershipDao = dealershipDao;
         log.info("creating dealerships service bean");
+    }
+    @Override
+    public Dealership addDealership(Dealership dealership) {
+        log.info("Adding dealership: " + dealership);
+        return dealershipDao.save(dealership);
     }
 
 }

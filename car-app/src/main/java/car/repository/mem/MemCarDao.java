@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.stream.Collectors;
-@Component
+@Component("carDao")
 public class MemCarDao implements CarDao {
     @Override
     public List<Car> findAll() {return SampleData.cars;}

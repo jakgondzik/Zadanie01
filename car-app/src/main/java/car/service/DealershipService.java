@@ -13,4 +13,6 @@ public interface DealershipService {
     List<Dealership> getDealershipsByCar(Car c);
 
     List<Car> getCarsInDealership(Dealership d);
+
+    Dealership addDealership(Dealership d);
 }

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.stream.Collectors;
-@Component
+@Component("brandDao")
 public class MemBrandDao implements BrandDao {
     @Override
     public List<Brand> findAll() {return SampleData.brands;}

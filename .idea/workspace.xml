@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026" />
+    <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
+      <change afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/DealershipDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/DealershipDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemBrandDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemBrandDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemCarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemDealershipDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemDealershipDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/DealershipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/DealershipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemBrandDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemBrandDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemDealershipDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemDealershipDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -32,6 +52,9 @@
     &quot;accountId&quot;: &quot;f275dd04-900b-4445-b312-2a72de4c86c0&quot;
   }
 }</component>
+  <component name="HttpClientEndpointsTabState">
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests&gt;&#10;  &lt;entry key=&quot;bc7cff18d006fe203ab547acf8fe6f0054fa615b&quot; value=&quot;###&amp;#10;GET http://localhost:8080/dealerships&quot; /&gt;&#10;&lt;/CachedHttpClientTabRequests&gt;" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -44,6 +67,11 @@
   "keyToString": {
     "Application.CarApplication.executor": "Run",
     "Application.Main.executor": "Run",
+    "HTTP Request.car | #2.executor": "Run",
+    "HTTP Request.car | #3.executor": "Run",
+    "HTTP Request.car | #4.executor": "Run",
+    "HTTP Request.car | GET request to example server.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -63,7 +91,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
@@ -71,6 +99,21 @@
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.CarAppApplication">
+    <configuration name="car | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#2" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#3" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#4" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | create new dealership" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="CarAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="car" />
       <option name="PROGRAM_PARAMETERS" value="one two three" />
@@ -87,9 +130,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.car | #2" />
+      <item itemvalue="HTTP Request.car | #3" />
+      <item itemvalue="HTTP Request.car | #4" />
+      <item itemvalue="HTTP Request.car | GET request to example server" />
+      <item itemvalue="HTTP Request.car | create new dealership" />
       <item itemvalue="Spring Boot.FooAppApplication" />
       <item itemvalue="Spring Boot.CarAppApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.car | #4" />
+        <item itemvalue="HTTP Request.car | create new dealership" />
+        <item itemvalue="HTTP Request.car | GET request to example server" />
+        <item itemvalue="HTTP Request.car | #3" />
+        <item itemvalue="HTTP Request.car | #2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,6 +171,8 @@
       <workItem from="1772790826010" duration="3371000" />
       <workItem from="1772794474066" duration="47000" />
       <workItem from="1772794547429" duration="154000" />
+      <workItem from="1773077709013" duration="23000" />
+      <workItem from="1773235235857" duration="3499000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />

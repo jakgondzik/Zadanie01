@@ -1,0 +1,23 @@
+### GET request to example server
+
+###Get all dealerships wit params
+GET http://localhost:8080/dealerships?phrase=abc
+custom-header: custom-value
+Cookie: some-cookie=some-value
+###
+GET http://localhost:8080/dealerships/1
+Accept: application/xml
+###
+GET http://localhost:8080/dealerships/5
+###
+GET http://localhost:8080/dealerships
+###
+GET http://localhost:8080/cars/1/dealerships
+### create new dealership
+POST http://localhost:8080/dealerships
+Content-Type: application/json
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}

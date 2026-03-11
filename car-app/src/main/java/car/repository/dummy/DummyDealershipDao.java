@@ -20,4 +20,9 @@ public class DummyDealershipDao implements DealershipDao {
     public List<Dealership> findByCar(Car c){
         return List.of();
     }
+
+    @Override
+    public Dealership save(Dealership dealership) {
+        return null;
+    }
 }

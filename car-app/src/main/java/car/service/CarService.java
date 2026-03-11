@@ -21,4 +21,5 @@ public interface CarService {
    Brand getBrandById(int id);
 
     Brand addBrand(Brand b);
+
 }

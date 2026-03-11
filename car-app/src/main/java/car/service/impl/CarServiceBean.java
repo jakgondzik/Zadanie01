@@ -9,10 +9,11 @@ import car.repository.DealershipDao;
 import car.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.logging.Logger;
-@Component
+@Service
 public class CarServiceBean implements CarService {
     private static final Logger log = Logger.getLogger(CarService.class.getName());
 
