@@ -5,49 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/dto/CarDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144040.200.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144206.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144208.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144237.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144238.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144502.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144537.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T144942.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145006.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145213.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145232.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145257.200.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145300.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T145302.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153635.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153656.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153706.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153708.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T153715.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T175902.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T180243.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183204.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183217.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183226.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183231.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183242.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183626.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183743.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183855.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183903.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T183916.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/model/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/model/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/CarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/MemCarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/SampleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/mem/SampleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages_it.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/CarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/CarDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/SampleData.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/SampleData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/messages_it.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/messages_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/CarApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/config/CarConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Dealership.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/BrandDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/CarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/DealershipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/dummy/DummyDealershipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemBrandDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemDealershipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/SampleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/CarApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/CarComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/CarServiceMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/DealershipService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/HelloRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/dto/CarDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/messages_pl.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/car.http" beforeDir="false" afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,13 +104,21 @@
     "HTTP Request.car | #2.executor": "Run",
     "HTTP Request.car | #3.executor": "Run",
     "HTTP Request.car | #4.executor": "Run",
+    "HTTP Request.car | #6.executor": "Run",
+    "HTTP Request.car | #7.executor": "Run",
+    "HTTP Request.car | #9.executor": "Run",
     "HTTP Request.car | GET request to example server.executor": "Run",
+    "HTTP Request.car | Get all dealerships wit params.executor": "Run",
     "HTTP Request.car | Get car by id.executor": "Run",
+    "HTTP Request.car | create new car#2.executor": "Run",
+    "HTTP Request.car | create new car#3.executor": "Run",
     "HTTP Request.car | create new car.executor": "Run",
     "HTTP Request.car | create new dealership with error.executor": "Run",
     "HTTP Request.car | create new dealership.executor": "Run",
     "HTTP Request.car | create new with doubled name.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
+    "Maven.car [clean].executor": "Run",
+    "Maven.foo-app [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -138,16 +154,16 @@
     <configuration name="car | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="GET request to example server" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | Get car by id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="Get car by id" index="2" runType="Run single request">
+    <configuration name="car | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#6" index="6" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | create new car" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new car" index="4" runType="Run single request">
+    <configuration name="car | create new car#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new car#2" index="14" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | create new car#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new car#3" index="15" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="car | create new dealership" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership" index="10" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="car | create new with doubled name" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new with doubled name" index="8" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CarAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -166,9 +182,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.car | Get car by id" />
-      <item itemvalue="HTTP Request.car | create new car" />
-      <item itemvalue="HTTP Request.car | create new with doubled name" />
+      <item itemvalue="HTTP Request.car | #6" />
+      <item itemvalue="HTTP Request.car | create new car#2" />
+      <item itemvalue="HTTP Request.car | create new car#3" />
       <item itemvalue="HTTP Request.car | GET request to example server" />
       <item itemvalue="HTTP Request.car | create new dealership" />
       <item itemvalue="Spring Boot.FooAppApplication" />
@@ -176,11 +192,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.car | create new with doubled name" />
+        <item itemvalue="HTTP Request.car | create new car#2" />
+        <item itemvalue="HTTP Request.car | create new car#3" />
         <item itemvalue="HTTP Request.car | create new dealership" />
-        <item itemvalue="HTTP Request.car | create new car" />
-        <item itemvalue="HTTP Request.car | Get car by id" />
         <item itemvalue="HTTP Request.car | GET request to example server" />
+        <item itemvalue="HTTP Request.car | #6" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +227,7 @@
       <workItem from="1773235235857" duration="3839000" />
       <workItem from="1773242235311" duration="984000" />
       <workItem from="1773246670270" duration="6535000" />
+      <workItem from="1773737332861" duration="3204000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />

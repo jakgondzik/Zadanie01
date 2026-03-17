@@ -34,14 +34,21 @@ public class DealershipRest {
 
     @GetMapping("/dealerships")
     List<Dealership> getDealerships(
-            @RequestParam(value = "phrase", required = false) String phase,
+            @RequestParam(value = "phrase", required = false) String phrase,
             @RequestHeader(value = "custom-header", required = false) String customHeader,
             @CookieValue(value = "some-cookie", required = false) String someCookie
     ){
         log.info("about to retreive dealerships");
-        log.info("phase is {}", phase);
+        log.info("phase is {}", phrase);
         log.info("custom-header is {}", customHeader);
         log.info("some cookie is {}", someCookie);
+
+        if(phrase!=null && phrase.equals("foo")){
+            throw new IllegalArgumentException("foo");
+        }
+
+
+
         List<Dealership> dealerships = dealershipService.getAllDealerships();
         log.info("{} dealerships found", dealerships.size());
         return dealerships;

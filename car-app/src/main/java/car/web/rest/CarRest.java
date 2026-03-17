@@ -53,12 +53,17 @@ public class CarRest {
         }
     }
     @PostMapping("/cars")
-    ResponseEntity<?> addCar(@RequestBody CarDTO carDTO){
+    ResponseEntity<?> addCar(@Validated @RequestBody CarDTO carDTO, Errors errors){
+        log.info("about to add new car {}", carDTO);
+        if(errors.hasErrors()){
+            return ResponseEntity.badRequest().build();
+        }
         log.info("Add car {}", carDTO);
         Car car = new Car();
         car.setBrand(carService.getBrandById(carDTO.getBrandId()));
         car.setModel(carDTO.getModel());
         car.setPrice(carDTO.getPrice());
+
         car = carService.addCar(car);
         log.info("new car added: {}", car);
         return ResponseEntity
