@@ -1,6 +1,7 @@
-package car.service;
+package car;
 
 import car.model.Dealership;
+import car.service.DealershipService;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
