@@ -23,6 +23,7 @@ import java.util.Locale;
 @RestController
 @RequiredArgsConstructor
 @Slf4j
+@RequestMapping("/webapi")
 public class DealershipRest {
     private final DealershipService dealershipService;
     private final CarService carService;

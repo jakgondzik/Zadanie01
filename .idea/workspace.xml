@@ -5,46 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/ui/DealershipController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/static/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/templates/brandsView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/templates/carsView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/resources/templates/dealershipsView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/CarApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/config/CarConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Brand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Dealership.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/BrandDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/CarDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/DealershipDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/dummy/DummyDealershipDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemBrandDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemCarDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/MemDealershipDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/mem/SampleData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/CarApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/CarService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/CarServiceMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/DealershipService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarRest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipRest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/DealershipValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/HelloRest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/dto/CarDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/messages_it.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/target/classes/messages_pl.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/CarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/CarComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car.http" beforeDir="false" afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,8 +155,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -220,6 +183,7 @@
       <workItem from="1773737332861" duration="3204000" />
       <workItem from="1773750167064" duration="57000" />
       <workItem from="1773751702796" duration="3800000" />
+      <workItem from="1773827307887" duration="1115000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />
