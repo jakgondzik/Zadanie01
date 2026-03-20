@@ -1,21 +1,34 @@
 package car.model;
 
+import jakarta.persistence.*;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@Entity
+@Table(name = "car")
 public class Car {
-    private int id;
+
+@Id
+@GeneratedValue(strategy= GenerationType.IDENTITY)
+private int id;
     private String model;
+    @ManyToOne
+    @JoinColumn(name = "brand_id")
     private Brand brand;
     private float price;
+    @ManyToMany
+    @JoinTable(name="car_dealership", joinColumns = @JoinColumn(name="car_id",referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "dealership_id",referencedColumnName = "id"))
     private List<Dealership> dealerships =  new ArrayList<Dealership>();
-
     public Car(int id, String model, Brand brand, float price) {
         this.id = id;
         this.model = model;
         this.brand = brand;
         this.price = price;
     }
+
+
+
 
     public Car() {
     }

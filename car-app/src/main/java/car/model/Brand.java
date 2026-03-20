@@ -1,14 +1,25 @@
 package car.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Entity
+@Table(name="brand")
 public class Brand {
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
+    @NotNull
+    @Size(min=2,max=20)
     private String name;
+    @Column(name = "logo")
     private String logo;
+
+    @OneToMany(mappedBy = "brand")
     @JsonIgnore
     private List<Car> cars = new ArrayList<>(); //relacja 1 do wielu
 
