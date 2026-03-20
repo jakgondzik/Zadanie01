@@ -1,2 +1,0 @@
-error:
-Name field of dealer ship must be between 2 and 20

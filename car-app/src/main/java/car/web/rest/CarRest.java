@@ -22,7 +22,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.util.List;
 import java.util.Locale;
-
+@RequestMapping("/webapi")
 @RestController
 @RequiredArgsConstructor
 @Slf4j
@@ -53,8 +53,17 @@ public class CarRest {
         }
     }
     @PostMapping("/cars")
-    ResponseEntity<?> addCar(@Validated @RequestBody CarDTO carDTO, Errors errors){
+    ResponseEntity<?> addCar(@Validated @RequestBody CarDTO carDTO, Errors errors, HttpServletRequest request){
         log.info("about to add new car {}", carDTO);
+        if(errors.hasErrors()) {
+            Locale locale = localeResolver.resolveLocale(request);
+            String errorMessage = errors.getAllErrors().stream()
+                    //  .map(oe->messageSource.getMessage(oe, locale))
+                    .map(oe->messageSource.getMessage(oe.getCode(),new Object[0], locale))
+                    //W Formie wyżej mi nie znajdywało treści erroru
+                    .reduce("error:\n", (accu, oe)->accu+oe+"\n");
+            return ResponseEntity.badRequest().body(errorMessage);
+        }
         if(errors.hasErrors()){
             return ResponseEntity.badRequest().build();
         }

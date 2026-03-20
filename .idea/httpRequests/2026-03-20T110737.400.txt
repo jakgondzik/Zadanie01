@@ -1,0 +1,2 @@
+error:
+Il campo del nome nel concessionaria e obbligatorio

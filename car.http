@@ -1,7 +1,7 @@
 ### GET request to example server
 
 ###Get all dealerships with params
-GET http://localhost:8080/dealerships?phrase=foo
+GET http://localhost:8080/webapi/dealerships?phrase=foo
 
 
 
@@ -12,16 +12,16 @@ GET http://localhost:8080/dealerships?phrase=foo
 
 
 ###Get all cars
-GET http://localhost:8080/cars
+GET http://localhost:8080/webapi/cars
 
 ###Get car by id
-GET http://localhost:8080/cars/1
+GET http://localhost:8080/webapi/cars/1
 
 ###Get cars from dealership
-GET http://localhost:8080/dealership/1/car
+GET http://localhost:8080/webapi/dealership/1/car
 
 ### create new car
-POST http://localhost:8080/cars
+POST http://localhost:8080/webapi/cars
 Content-Type: application/json
 
 {
@@ -75,15 +75,7 @@ Accept-Language: it
   "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
 }
 
-### create new car
-POST http://localhost:8080/webapi/cars
-Content-Type: application/json
 
-{
-  "model": "Tonale",
-  "brandId": 10,
-  "price": 10305.0
-}
 
 
 ### create new car

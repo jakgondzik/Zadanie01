@@ -1,0 +1,2 @@
+error:
+Il campo del nome del concessionaria deve essere compreso tra 2 e 20

@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <a href="./"><h1>Pix</h1></a>
+    <a href="./"><h1>Cars</h1></a>
     <h2 th:text="${title}"></h2>
     <h3>
     </h3>
@@ -17,24 +17,23 @@
 
     <table>
         <tr>
-            <th>Poster</th>
-            <th>Title</th>
-            <th>Director</th>
-            <th>Rating</th>
-            <th>Cinemas</th>
+            <th>Model</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Filtr</th>
+
         </tr>
         <tr th:each="c : ${cars}">
-            <td>
-                <img th:src="${c.logo}"/>
-            </td>
+
             <td th:text="${c.model}"></td>
+
             <td>
-                <a th:href="@{/cars?dealershipId={id}(id=${d.id})}"
-                   th:text="JESZCZE NIE WIEM"></a>
+
+                <a th:href="@{/cars?brandId={id}(id=${c.brand.id})}">                <img th:src="${c.brand.logo}"/></a>
             </td>
             <td class="price" th:text="${c.price}"></td>
             <td class="search-container">
-                <a class="search" th:href="@{/cars?dealershipId={id}(id=${d.id})}"></a>
+                <a class="search" th:href="@{/dealerships?carId={id}(id=${c.id})}"></a>
             </td>
         </tr>
     </table>
