@@ -36,3 +36,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# Ignoruj dane bazy danych (bardzo ważne!)
+docker-car/mysql/data/
+
+# Ignoruj pliki konfiguracyjne IntelliJ/PyCharm
+.idea/
