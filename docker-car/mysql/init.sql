@@ -29,12 +29,12 @@ CREATE TABLE `car_dealership`
     `dealership_id` int DEFAULT NULL
 );
 
-INSERT INTO `dealership`(`id`, `name`, `logo`)
+INSERT INTO `dealership`(`id`, `logo`, `name`)
 VALUES ('1', 'https://www.vcentrum.pl/wp-content/uploads/2021/09/vcentrum-logo.png',
         'vcentrum');
-INSERT INTO `dealership`(`id`, `name`, `logo`)
+INSERT INTO `dealership`(`id`, `logo`, `name`)
 VALUES ('2', 'https://eurocar.pl/wp-content/uploads/2023/08/logo-euro-car.png', 'eurocar');
-INSERT INTO `dealership`(`id`, `name`, `logo`)
+INSERT INTO `dealership`(`id`, `logo`, `name`)
 VALUES ('3', 'https://1000logos.net/wp-content/uploads/2021/09/CarMax-Logo-500x281.png', 'carmax');
 
 INSERT INTO `brand`(`id`, `name`, `logo`)
