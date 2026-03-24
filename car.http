@@ -83,7 +83,7 @@ POST http://localhost:8080/webapi/cars
 Content-Type: application/json
 
 {
-  "model": "458",
-  "brandId": 1,
+  "model": "911",
+  "brandId": 3,
   "price": 10305.0
 }
