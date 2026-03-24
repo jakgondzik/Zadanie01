@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/data/DataBrandDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/data/DataCarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T193114.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T193155.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T193203.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T193555.201.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/config/CarInfoContributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194020.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194039.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194053.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194056.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095431.200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095433.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095437.400.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/data/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/data/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/repository/jpa/JpaCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/repository/jpa/JpaCarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/CarServiceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/data/CarRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/data/CarRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/repository/jpa/JpaCarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/repository/jpa/JpaCarDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car.http" beforeDir="false" afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +102,7 @@
     "HTTP Request.car | create new dealership with error.executor": "Run",
     "HTTP Request.car | create new dealership.executor": "Run",
     "HTTP Request.car | create new with doubled name.executor": "Run",
+    "HTTP Request.car | shutdown service.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "Maven.car [clean].executor": "Run",
     "Maven.foo-app [clean].executor": "Run",
@@ -162,6 +159,7 @@
             <map>
               <entry key="car | create new car#2" value="STOPPED" />
               <entry key="car | create new with doubled name" value="STOPPED" />
+              <entry key="car | shutdown service" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -179,6 +177,9 @@
       <method v="2" />
     </configuration>
     <configuration name="car | create new with doubled name" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new with doubled name" index="13" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | shutdown service" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="shutdown service" index="15" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CarAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -210,23 +211,10 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-car.mysql-books: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="mysql-books" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-car/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Database Script.init.sql" />
-      <item itemvalue="Docker.docker-car.mysql-books: Compose Deployment" />
       <item itemvalue="Docker.docker-car: Compose Deployment" />
+      <item itemvalue="HTTP Request.car | shutdown service" />
       <item itemvalue="HTTP Request.car | create new with doubled name" />
       <item itemvalue="HTTP Request.car | create new car#2" />
       <item itemvalue="Spring Boot.FooAppApplication" />
@@ -234,11 +222,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.car | shutdown service" />
         <item itemvalue="HTTP Request.car | create new car#2" />
         <item itemvalue="HTTP Request.car | create new with doubled name" />
         <item itemvalue="Database Script.init.sql" />
         <item itemvalue="Docker.docker-car: Compose Deployment" />
-        <item itemvalue="Docker.docker-car.mysql-books: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +272,7 @@
       <workItem from="1774087032215" duration="1855000" />
       <workItem from="1774092165072" duration="998000" />
       <workItem from="1774292445912" duration="1482000" />
-      <workItem from="1774344876935" duration="3521000" />
+      <workItem from="1774344876935" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />

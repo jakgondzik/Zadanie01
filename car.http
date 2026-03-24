@@ -87,3 +87,6 @@ Content-Type: application/json
   "brandId": 3,
   "price": 10305.0
 }
+
+###shutdown service
+POST http://localhost:8080/actuator/shutdown

@@ -26,5 +26,15 @@ public class CarValidator implements Validator {
         if (brand == null) {
             errors.rejectValue("brandId", "car.brand.missing");
         }
+        boolean duplicated = carService.getAllCars().stream()
+                .anyMatch(car ->
+                        car.getModel().equalsIgnoreCase(carDTO.getModel()) &&
+                                car.getBrand().getId() == carDTO.getBrandId()
+                );
+
+        if (duplicated) {
+
+            errors.rejectValue("model", "duplicated", "Samochód o tym modelu i marce już istnieje!");
+        }
     }
 }
