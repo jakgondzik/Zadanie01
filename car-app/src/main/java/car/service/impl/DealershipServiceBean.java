@@ -7,6 +7,7 @@ import car.repository.DealershipDao;
 import car.service.DealershipService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -51,6 +52,7 @@ public class DealershipServiceBean implements DealershipService {
         this.dealershipDao = dealershipDao;
         log.info("creating dealerships service bean");
     }
+    @PreAuthorize("hasRole('ADMIN')")
     @Override
     public Dealership addDealership(Dealership dealership) {
         log.info("Adding dealership: " + dealership);

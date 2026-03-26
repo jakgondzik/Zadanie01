@@ -5,22 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/config/CarInfoContributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194020.400.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194039.400.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194053.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-11T194056.400.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095431.200.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095433.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095437.400.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/config/CarSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095439.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095442.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095446.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095448.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095452.200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T101516.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T101533.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T101720.418.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T104253.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/CarValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/web/rest/CarValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car.http" beforeDir="false" afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-car/mysql/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker-car/mysql/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +99,7 @@
     "HTTP Request.car | #7.executor": "Run",
     "HTTP Request.car | #9.executor": "Run",
     "HTTP Request.car | GET request to example server.executor": "Run",
+    "HTTP Request.car | Get all cars.executor": "Run",
     "HTTP Request.car | Get all dealerships wit params.executor": "Run",
     "HTTP Request.car | Get car by id.executor": "Run",
     "HTTP Request.car | create new car#1.executor": "Run",
@@ -157,8 +164,10 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
+              <entry key="car | #9" value="STOPPED" />
+              <entry key="car | Get all cars" value="STOPPED" />
               <entry key="car | create new car#2" value="STOPPED" />
-              <entry key="car | create new with doubled name" value="STOPPED" />
+              <entry key="car | create new dealership" value="STOPPED" />
               <entry key="car | shutdown service" value="STOPPED" />
             </map>
           </value>
@@ -167,16 +176,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CarAppApplication">
-    <configuration name="init.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/docker-car/mysql/init.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="bb73d1e9-3ec2-4399-bd3c-5092fe71c497" />
+    <configuration name="car | Get all cars" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="Get all cars" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="car | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#9" index="9" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="car | create new car#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new car#2" index="14" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | create new with doubled name" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new with doubled name" index="13" runType="Run single request">
+    <configuration name="car | create new dealership" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="car | shutdown service" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="shutdown service" index="15" runType="Run single request">
@@ -203,30 +212,22 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-car: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-car/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Database Script.init.sql" />
-      <item itemvalue="Docker.docker-car: Compose Deployment" />
+      <item itemvalue="HTTP Request.car | #9" />
+      <item itemvalue="HTTP Request.car | Get all cars" />
+      <item itemvalue="HTTP Request.car | create new dealership" />
       <item itemvalue="HTTP Request.car | shutdown service" />
-      <item itemvalue="HTTP Request.car | create new with doubled name" />
       <item itemvalue="HTTP Request.car | create new car#2" />
       <item itemvalue="Spring Boot.FooAppApplication" />
       <item itemvalue="Spring Boot.CarAppApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.car | create new dealership" />
+        <item itemvalue="HTTP Request.car | Get all cars" />
+        <item itemvalue="HTTP Request.car | #9" />
         <item itemvalue="HTTP Request.car | shutdown service" />
         <item itemvalue="HTTP Request.car | create new car#2" />
-        <item itemvalue="HTTP Request.car | create new with doubled name" />
-        <item itemvalue="Database Script.init.sql" />
-        <item itemvalue="Docker.docker-car: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +274,7 @@
       <workItem from="1774092165072" duration="998000" />
       <workItem from="1774292445912" duration="1482000" />
       <workItem from="1774344876935" duration="5513000" />
+      <workItem from="1774548208983" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />

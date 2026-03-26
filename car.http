@@ -51,6 +51,7 @@ GET http://localhost:8080/webapi/cars/1/dealerships
 ### create new dealership
 POST http://localhost:8080/webapi/dealerships
 Content-Type: application/json
+Authorization: Basic dbuser2 dbuser2
 
 {
   "name": "New dealership",

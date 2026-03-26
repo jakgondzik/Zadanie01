@@ -7,6 +7,8 @@ import car.service.DealershipService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.context.MessageSource;
@@ -92,6 +94,11 @@ public class DealershipRest {
                     .reduce("error:\n", (accu, oe)->accu+oe+"\n");
             return ResponseEntity.badRequest().body(errorMessage);
         }
+
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        log.info("authentication is {}", authentication);
+        log.info("username is {}", authentication.getName());
+
         dealership = dealershipService.addDealership(dealership);
         log.info("{} dealership added", dealership);
         return ResponseEntity.status(HttpStatus.CREATED).body(dealership);

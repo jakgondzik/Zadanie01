@@ -1,3 +1,308 @@
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser2
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194246.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194240.400.txt
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser2
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194225.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194215.400.txt
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194114.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser2
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194109.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194106.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser2
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194048.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194033.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T194025.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic user1 user1
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T193227.201.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic user2 user2
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T193216.403.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
+<> 2026-03-26T193200.401.json
+
+###
+
+GET http://localhost:8080/webapi/cars
+Authorization: Basic user2 user2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+<> 2026-03-26T193140.200.json
+
+###
+
+GET http://localhost:8080/webapi/cars
+Authorization: Basic user1 user1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+<> 2026-03-26T193126.200.json
+
+###
+
+GET http://localhost:8080/webapi/cars
+Authorization: Basic user2 user2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+<> 2026-03-26T193120.200.json
+
+###
+
+GET http://localhost:8080/webapi/cars
+Authorization: Basic user1 user2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+<> 2026-03-26T193108.401.json
+
+###
+
+GET http://localhost:8080/webapi/cars
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+<> 2026-03-26T193046.401.json
+
+###
+
+GET http://localhost:8080/webapi/dealerships
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B6187824A96501560E4B3F0FA05F8F12
+
+<> 2026-03-26T192945.200.json
+
+###
+
+GET http://localhost:8080/webapi/cars
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-26T192924.401.json
+
+###
+
 POST http://localhost:8080/actuator/shutdown
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -498,281 +803,6 @@ Accept: */*
 }
 
 <> 2026-03-20T110642.400.txt
-
-###
-
-POST http://localhost:8080/webapi/dealerships
-Content-Type: application/json
-Accept-Language: it
-Content-Length: 133
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "vcentrum",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-20T110641.400.txt
-
-###
-
-POST http://localhost:8080/webapi/cars
-Content-Type: application/json
-Content-Length: 60
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "model": "Tonale",
-  "brandId": 10,
-  "price": 10305.0
-}
-
-<> 2026-03-20T110637.400.txt
-
-###
-
-POST http://localhost:8080/webapi/dealerships
-Content-Type: application/json
-Accept-Language: it
-Content-Length: 125
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-20T110526.400.txt
-
-###
-
-GET http://localhost:8080/webapi/dealerships?phrase=abc
-custom-header: custom-value
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: some-cookie=some-value
-
-<> 2026-03-20T110524.200.json
-
-###
-
-GET http://localhost:8080/webapi/dealerships?phrase=abc
-custom-header: custom-value
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: some-cookie=some-value
-
-<> 2026-03-20T110522.200.json
-
-###
-
-POST http://localhost:8080/webapi/cars
-Content-Type: application/json
-Content-Length: 71
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-  "model": "Niemampojeciajuz",
-  "price": 100000.0,
-  "brandId": 1
-}
-
-<> 2026-03-20T110520.201.json
-
-###
-
-POST http://localhost:8080/webapi/cars
-Content-Type: application/json
-Content-Length: 71
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-  "model": "Niemampojeciajuz",
-  "price": 100000.0,
-  "brandId": 1
-}
-
-<> 2026-03-20T110518.201.json
-
-###
-
-POST http://localhost:8080/cars
-Content-Type: application/json
-Content-Length: 60
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "model": "Tonale",
-  "brandId": 10,
-  "price": 10305.0
-}
-
-###
-
-POST http://localhost:8080/cars
-Content-Type: application/json
-Content-Length: 56
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "model": "458",
-  "brandId": 1,
-  "price": 10305.0
-}
-
-<> 2026-03-17T104446.201.json
-
-###
-
-POST http://localhost:8080/dealerships
-Content-Type: application/json
-Content-Length: 139
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "New dealership",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-17T104258.400.txt
-
-###
-
-POST http://localhost:8080/dealerships
-Content-Type: application/json
-Content-Length: 139
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "New dealership",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-17T104253.201.json
-
-###
-
-GET http://localhost:8080/dealerships?phrase=foo
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2026-03-17T101720.418.txt
-
-###
-
-GET http://localhost:8080/dealerships?phrase=foo
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2026-03-17T101533.500.json
-
-###
-
-GET http://localhost:8080/dealerships?phrase=foo
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2026-03-17T101516.500.json
-
-###
-
-GET http://localhost:8080/dealerships/1
-Accept: application/xml
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-03-17T095452.200.xml
-
-###
-
-GET http://localhost:8080/dealerships/5
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-###
-
-GET http://localhost:8080/cars/1/dealerships
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2026-03-17T095448.200.json
-
-###
-
-POST http://localhost:8080/dealerships
-Content-Type: application/json
-Content-Length: 139
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "New dealership",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-17T095446.201.json
-
-###
-
-POST http://localhost:8080/dealerships
-Content-Type: application/json
-Accept-Language: it
-Content-Length: 133
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "vcentrum",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-17T095442.400.txt
-
-###
-
-POST http://localhost:8080/dealerships
-Content-Type: application/json
-Accept-Language: it
-Content-Length: 133
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "vcentrum",
-  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
-}
-
-<> 2026-03-17T095439.400.txt
 
 ###
 

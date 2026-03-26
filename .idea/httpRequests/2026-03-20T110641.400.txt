@@ -1,2 +1,0 @@
-error:
-Nome del concessionaria duplicate

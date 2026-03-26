@@ -116,9 +116,9 @@ VALUES ('dbuser1', '$2a$10$eiA5dKnoUk77EKXZhJvq7O3XBy5ECYupA0FCEm0gS58QSY6PoPcOS
 
 
 INSERT INTO role(username, role)
-VALUES ('dbuser1', 'USER_ADMIN'),
-       ('dbuser2', 'AUTHOR_ADMIN'),
-       ('dbuser3', 'BOOK_ADMIN');
+VALUES ('dbuser1', 'ROLE_ADMIN'),
+       ('dbuser2', 'ROLE_AUTHOR_ADMIN'),
+       ('dbuser3', 'ROLE_BOOK_ADMIN');
 
 
 
