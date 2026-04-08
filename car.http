@@ -44,11 +44,18 @@ GET http://localhost:8080/webapi/dealerships/1
 Accept: application/xml
 ###
 GET http://localhost:8080/webapi/dealerships/5
-###
-GET http://localhost:8080/webapi/dealerships
+
+
+
+
+### GET CARS
+GET http://localhost:8080/webapi/cars
+
+
+
 ###
 GET http://localhost:8080/webapi/cars/1/dealerships
-### create new dealership
+### create new dealership USER2
 POST http://localhost:8080/webapi/dealerships
 Content-Type: application/json
 Authorization: Basic dbuser2 dbuser2
@@ -57,6 +64,24 @@ Authorization: Basic dbuser2 dbuser2
   "name": "New dealership",
   "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
 }
+### create new dealership USER1
+POST http://localhost:8080/webapi/dealerships
+Content-Type: application/json
+
+{
+"name": "New dealership",
+"logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+### create new dealership bez usera
+POST http://localhost:8080/webapi/dealerships
+Content-Type: application/json
+Authorization: Basic dbuser3 dbuser3
+
+{
+  "name": "New dealership",
+  "logo": "https://as2.ftcdn.net/v2/jpg/17/14/42/95/1000_F_1714429500_8BVcMCHGxyDQItv1UGL3VvjP9y2t714Y.jpg"
+}
+
 ### create new dealership with error
 POST http://localhost:8080/webapi/dealerships
 Content-Type: application/json
@@ -91,3 +116,5 @@ Content-Type: application/json
 
 ###shutdown service
 POST http://localhost:8080/actuator/shutdown
+
+### CZY DZIAŁAJĄ BRANCHE

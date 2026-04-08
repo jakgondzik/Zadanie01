@@ -5,28 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c446eac-178c-4bb9-8a75-9d051db4d913" name="Changes" comment="6.03.2026">
-      <change afterPath="$PROJECT_DIR$/car-app/src/main/java/car/config/CarSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095439.400.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095442.400.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095446.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095448.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T095452.200.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T101516.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T101533.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T101720.418.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-17T104253.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110642.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110644.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110645.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110658.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110700.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110704.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110710.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110714.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110718.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110720.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110724.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110737.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110748.400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110753.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-03-20T110800.400.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/service/impl/DealershipServiceBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/java/car/web/rest/DealershipRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/model/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/CarServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-app/target/classes/car/service/impl/DealershipServiceBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car.http" beforeDir="false" afterPath="$PROJECT_DIR$/car.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-car/mysql/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker-car/mysql/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,74 +82,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CarApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Database Script.init.sql.executor": "Run",
-    "Docker.docker-car.mysql-books: Compose Deployment.executor": "Run",
-    "Docker.docker-car: Compose Deployment.executor": "Run",
-    "HTTP Request.car | #2.executor": "Run",
-    "HTTP Request.car | #3.executor": "Run",
-    "HTTP Request.car | #4.executor": "Run",
-    "HTTP Request.car | #6.executor": "Run",
-    "HTTP Request.car | #7.executor": "Run",
-    "HTTP Request.car | #9.executor": "Run",
-    "HTTP Request.car | GET request to example server.executor": "Run",
-    "HTTP Request.car | Get all cars.executor": "Run",
-    "HTTP Request.car | Get all dealerships wit params.executor": "Run",
-    "HTTP Request.car | Get car by id.executor": "Run",
-    "HTTP Request.car | create new car#1.executor": "Run",
-    "HTTP Request.car | create new car#2.executor": "Run",
-    "HTTP Request.car | create new car#3.executor": "Run",
-    "HTTP Request.car | create new car.executor": "Run",
-    "HTTP Request.car | create new dealership with error.executor": "Run",
-    "HTTP Request.car | create new dealership.executor": "Run",
-    "HTTP Request.car | create new with doubled name.executor": "Run",
-    "HTTP Request.car | shutdown service.executor": "Run",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "Maven.car [clean].executor": "Run",
-    "Maven.foo-app [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.CarAppApplication.executor": "Run",
-    "Spring Boot.CarApplication.executor": "Run",
-    "Spring Boot.FooAppApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Student/Desktop/JG/24.03/Zadanie01",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.init.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-car.mysql-books: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-car: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #11.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | #9.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | GET CARS.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | Get all cars.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | Get all dealerships wit params.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | Get car by id.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new car#1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new car#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new car#3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new car.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership USER1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership USER2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership bez usera.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership chyba bez uprawnien.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership raczej z uprawnieniami.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership with error.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new dealership.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | create new with doubled name.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.car | shutdown service.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.car [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foo-app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CarAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FooAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/Desktop/JG/24.03/Zadanie01&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "bb73d1e9-3ec2-4399-bd3c-5092fe71c497",
-      "d97625d6-d7c1-4995-9f4b-13fa1b8faae0",
-      "9c5e7449-c3c0-4d8a-a5e9-64fa7986eb61"
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;bb73d1e9-3ec2-4399-bd3c-5092fe71c497&quot;,
+      &quot;d97625d6-d7c1-4995-9f4b-13fa1b8faae0&quot;,
+      &quot;9c5e7449-c3c0-4d8a-a5e9-64fa7986eb61&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kubag\Desktop\Zadanie01\car-app\src\main\resources" />
@@ -164,11 +169,11 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="car | #9" value="STOPPED" />
-              <entry key="car | Get all cars" value="STOPPED" />
-              <entry key="car | create new car#2" value="STOPPED" />
-              <entry key="car | create new dealership" value="STOPPED" />
-              <entry key="car | shutdown service" value="STOPPED" />
+              <entry key="car | #10" value="STOPPED" />
+              <entry key="car | #11" value="STOPPED" />
+              <entry key="car | GET CARS" value="STOPPED" />
+              <entry key="car | create new dealership USER1" value="STOPPED" />
+              <entry key="car | create new dealership bez usera" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -176,19 +181,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CarAppApplication">
-    <configuration name="car | Get all cars" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="Get all cars" index="2" runType="Run single request">
+    <configuration name="car | GET CARS" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="GET CARS" index="9" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#9" index="9" runType="Run single request">
+    <configuration name="car | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#10" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | create new car#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new car#2" index="14" runType="Run single request">
+    <configuration name="car | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="#11" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | create new dealership" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership" index="11" runType="Run single request">
+    <configuration name="car | create new dealership USER1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership USER1" index="12" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="car | shutdown service" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="shutdown service" index="15" runType="Run single request">
+    <configuration name="car | create new dealership bez usera" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/car.http" executionIdentifier="create new dealership bez usera" index="13" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CarAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -213,21 +218,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.car | #9" />
-      <item itemvalue="HTTP Request.car | Get all cars" />
-      <item itemvalue="HTTP Request.car | create new dealership" />
-      <item itemvalue="HTTP Request.car | shutdown service" />
-      <item itemvalue="HTTP Request.car | create new car#2" />
+      <item itemvalue="HTTP Request.car | #10" />
+      <item itemvalue="HTTP Request.car | #11" />
+      <item itemvalue="HTTP Request.car | GET CARS" />
+      <item itemvalue="HTTP Request.car | create new dealership USER1" />
+      <item itemvalue="HTTP Request.car | create new dealership bez usera" />
       <item itemvalue="Spring Boot.FooAppApplication" />
       <item itemvalue="Spring Boot.CarAppApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.car | create new dealership" />
-        <item itemvalue="HTTP Request.car | Get all cars" />
-        <item itemvalue="HTTP Request.car | #9" />
-        <item itemvalue="HTTP Request.car | shutdown service" />
-        <item itemvalue="HTTP Request.car | create new car#2" />
+        <item itemvalue="HTTP Request.car | create new dealership bez usera" />
+        <item itemvalue="HTTP Request.car | create new dealership USER1" />
+        <item itemvalue="HTTP Request.car | GET CARS" />
+        <item itemvalue="HTTP Request.car | #11" />
+        <item itemvalue="HTTP Request.car | #10" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +279,8 @@
       <workItem from="1774092165072" duration="998000" />
       <workItem from="1774292445912" duration="1482000" />
       <workItem from="1774344876935" duration="5513000" />
-      <workItem from="1774548208983" duration="1810000" />
+      <workItem from="1774548208983" duration="1989000" />
+      <workItem from="1774612264233" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="najnowsze">
       <option name="closed" value="true" />
